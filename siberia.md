@@ -54,7 +54,7 @@ No water stress was set by </br>
 |![](lai.compare.latosa.png)|
 |:---:|
 |*Fig. 5 Annual maximum LAI results from each parameter changes with high k_latosa (See Table. 1).*|
-|[](latosa.configs.gif)|
+|![](latosa.configs.gif)|
 |*Fig. 6 Spatial presentation of LAI changes by year from each parameter changes*|
 
 * The result with no water stress (right-middle figure) is closer to expected LAI than the default configuration with no water stress (Fig. 3, right-middle figure). 
