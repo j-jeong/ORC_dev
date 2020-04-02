@@ -42,6 +42,8 @@ Table 1. 4 parameters adjusted
 |![](lai.compare.default.png)|
 |:--:|
 |*Fig. 3 LAI result from each parameter changes (See Table. 1).*|
+|![](default.configs.gif)|
+|*Fig. 4 Spatial presentation of LAI changes by year from each parameter changes*|
 
 No water stress was set by </br>
 `` ENERGY_CONTROL=5, OK_GS_FEEDBACK=n``
@@ -51,7 +53,9 @@ No water stress was set by </br>
 
 |![](lai.compare.latosa.png)|
 |:---:|
-|*Fig. 4 Annual maximum LAI results from each parameter changes with high k_latosa (See Table. 1).*|
+|*Fig. 5 Annual maximum LAI results from each parameter changes with high k_latosa (See Table. 1).*|
+|[](latosa.configs.gif)|
+|*Fig. 6 Spatial presentation of LAI changes by year from each parameter changes*|
 
 * The result with no water stress (right-middle figure) is closer to expected LAI than the default configuration with no water stress (Fig. 3, right-middle figure). 
 * Both psi_leaf and psi_root did increase LAI, and the configuration added all changes showed the best result. 
@@ -62,11 +66,11 @@ The configuration with double k_latosa, psi_leaf -3 and psi_root -6 showed the m
 
 |![](add_up_LAI_Max.png)|
 |:--:|
-|*Fig. 5 Annual maximum LAI from 90-year Siberia run with double k_latosa, psi_leaf -3, and psi_root -6. PFT8 (up) and PFT9 (down)*|
+|*Fig. 7 Annual maximum LAI from 90-year Siberia run with double k_latosa, psi_leaf -3, and psi_root -6. PFT8 (up) and PFT9 (down)*|
 
 |![](sibera.param.90yr.die.png)|
 |:--:|
-|*Fig. 6 Numbers and times when replanting occurred per pixels from the add-all configuration. PFT8 (left) and PFT9 (right)*|
+|*Fig. 8 Numbers and times when replanting occurred per pixels from the add-all configuration. PFT8 (left) and PFT9 (right)*|
 
 LAI and times of dieback reduced after all parameter adjustment, but still half of the pixels experienced establishments within 90 years. This implies that the vegetation still couldn't resist to extreme years. It is possible that the problem the trunk currently has, low soil carbon, is related to poor growth. This test will be continued after solving that. 
 
