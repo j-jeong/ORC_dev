@@ -4,7 +4,7 @@
 
 PFT 8 and 9 cannot sustain their LAI and died continuously. 
 
-|![LAI per pfts](default_LAI_Max.png)|
+|![](default_LAI_Max.png)|
 |:--:|
 |*Fig.1 Annual maximum LAI for 30-year simulation in Siberia. PFT 8 and PFT 9 shows regenerations for overall period.*|
 
@@ -37,7 +37,7 @@ From the result with no stress, we can notice two things: 1. without water stres
 |:---:|
 |*Fig. 4 LAI result from each parameter changes with high k_latosa.*|
 
-Result with no water stress is closer to expected LAI than the default configuration with no water stress (Fig. 3). Both psi_leaf and psi_root did increase LAI, and the configuration with all add-up showed the best result. Thus, all add-up configuration was tested for longer years, 90 years.
+Result with no water stress is closer to expected LAI than the default configuration with no water stress (Fig. 3). Both psi_leaf and psi_root did increase LAI, and the configuration added all changes showed the best result. Thus, add-all configuration was tested for longer years, 90 years.
 
 |![](add_up_LAI_Max.png)|
 |:--:|
@@ -45,8 +45,11 @@ Result with no water stress is closer to expected LAI than the default configura
 
 |![](sibera.param.90yr.die.png)|
 |:--:|
-|*Fig. 6 Numbers and times when replanting occurred per pixels from all add-up configuration. PFT8 (left) and PFT9 (right)*|
+|*Fig. 6 Numbers and times when replanting occurred per pixels from add-all configuration. PFT8 (left) and PFT9 (right)*|
 
+LAI and times of dieback reduced after all parameter adjustment, but still half of pixels experienced establishments within 90 years. At least we can see the consistancies of years in adjacent pixels, however, this also implies that the vegetation couldn't resist to extreme years. It is possible that the problem the trunk currently has, low soil carbon, is related to the poor growth. This test will be continued after solving that. 
+
+Regardless of the above parameters tests, it was discussed that how to make plants graudally build carbon reserves during growing season. 
 
 About reserves 
 
